@@ -19,7 +19,7 @@ public final class WakeActivity extends Activity {
     }
     TextView label=new TextView(this);
     label.setTextSize(22);
-    label.setText("음성 대화 준비 중\nSunjooAn · 1.9");
+    label.setText("음성 대화 준비 중\nSunjooAn · 1.10");
     setContentView(label);
     KeyguardManager lock=getSystemService(KeyguardManager.class);
     if (lock!=null && lock.isKeyguardLocked()) {

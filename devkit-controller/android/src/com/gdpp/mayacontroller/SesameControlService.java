@@ -236,6 +236,7 @@ public final class SesameControlService extends AccessibilityService {
         selectIdle(service);
         if(ready)enterReady();
       }else if(sequence.select(service,now,wasActive)) {
+        log("서비스 전환: "+TITLES[sequence.working()]+" → "+TITLES[service]);
         ready=false;
         ptt.switchCall();
         inputGeneration++;

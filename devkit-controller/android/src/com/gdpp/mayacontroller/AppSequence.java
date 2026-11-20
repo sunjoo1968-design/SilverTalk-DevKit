@@ -28,11 +28,14 @@ final class AppSequence {
   boolean select(int service,long now,boolean wasActive){
     if(!VoiceService.valid(service))return false;
     if(busy()){
+      if(service==target)return false;
       target=service;switching=true;
       if(phase==Phase.STARTING){
         resume=true;
-        if(sent)redirect=true; // A dispatched start may connect late: stop it before leaving.
+        if(sent)redirect=service!=working; // A late start only needs cleanup when leaving that app.
         else{phase=Phase.TARGET;opened=false;}
+      }else if(phase==Phase.STOPPING&&!sent&&service==working){
+        phase=Phase.STARTING;sent=true;redirect=false;activeSince=-1;
       }
       return true;
     }

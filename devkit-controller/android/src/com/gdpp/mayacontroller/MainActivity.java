@@ -55,7 +55,7 @@ public final class MainActivity extends Activity {
     page.setOrientation(LinearLayout.VERTICAL);
     page.setPadding(24,24,24,24);
     text(page,"SilverTalk 박스 설정",28);
-    text(page,"SunjooAn · 1.9",15);
+    text(page,"SunjooAn · 1.10",15);
     status=text(page,"",18);
     LinearLayout home=page;
     button(home,"보호자 설정",()->{
