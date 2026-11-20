@@ -1,0 +1,13 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+  android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeWindowsChanged"
+  android:packageNames="com.sesame.consumer,com.google.android.apps.bard,com.google.android.googlequicksearchbox,com.openai.chatgpt,ai.inflection.pi"
+  android:accessibilityFeedbackType="feedbackGeneric"
+  android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+  android:notificationTimeout="30"
+  android:canPerformGestures="true"
+  android:canRetrieveWindowContent="true"
+  android:description="@string/service_description"
+  android:settingsActivity="kr.silvertalk.devkit.MainActivity" />
+
+
+
