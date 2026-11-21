@@ -24,6 +24,13 @@ PCB r1.0은 30핀 ESP32-WROOM-32 DevKit을 두 줄의 암헤더에 끼우고, �
 - [PCB 주문용 거버 ZIP](https://github.com/sunjoo1968-design/SilverTalk-DevKit/releases/download/pcb-r1.0/SilverTalk-DevKit-Carrier-r1.0-JLCPCB-Gerber.zip)
 - [KiCad 설계 전체 ZIP](https://github.com/sunjoo1968-design/SilverTalk-DevKit/releases/download/pcb-r1.0/SilverTalk-DevKit-Carrier-r1.0.zip)
 
+## 프로토타입 케이스 r1.0
+
+84 × 74 mm 캐리어용 본체, 교체형 전면판, 분리형 상판과 갤럭시 가로·세로 거치대를 포함합니다.
+
+- [JLC3DP용 STL ZIP](https://github.com/sunjoo1968-design/SilverTalk-DevKit/releases/download/case-r1.0/SilverTalk-DevKit-Case-r1.0-JLC3DP.zip)
+- [주문·조립 안내와 1:1 전면 도면](devkit-controller/hardware/enclosure-r1.0/README.md)
+
 ## 소스 빌드
 
 ### 갤럭시 앱

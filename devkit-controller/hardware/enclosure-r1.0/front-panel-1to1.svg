@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190mm" height="118mm" viewBox="0 0 190 118">
+<style>text{font-family:Arial,sans-serif;fill:#122d42}path,circle,rect,line{stroke:#122d42;stroke-width:.25;fill:none}</style>
+<text x="24" y="13" font-size="5" font-weight="bold">SilverTalk DevKit · Case r1.0</text>
+<text x="24" y="21" font-size="3.4">SunjooAn · 1:1 front panel · Print at 100%</text>
+<rect x="24" y="39" width="141.1" height="46.3" rx="1.7"/>
+<rect x="37.150" y="49.450" width="24.8" height="14.0" rx="1"/>
+<text x="49.55" y="57.45" text-anchor="middle" font-size="2.5">24.8 × 14.0</text>
+<circle cx="79.550" cy="66.450" r="6.35"/>
+<text x="79.55" y="67.45" font-size="2.25" text-anchor="middle">12.7</text>
+<text x="79.55" y="79.4" font-size="2.8" text-anchor="middle">WAKE</text>
+<circle cx="106.550" cy="66.450" r="8.35"/>
+<text x="106.55" y="67.45" font-size="2.25" text-anchor="middle">16.7</text>
+<text x="106.55" y="79.4" font-size="2.8" text-anchor="middle">TALK</text>
+<circle cx="133.550" cy="66.450" r="6.35"/>
+<text x="133.55" y="67.45" font-size="2.25" text-anchor="middle">12.7</text>
+<text x="133.55" y="79.4" font-size="2.8" text-anchor="middle">LIVE</text>
+<circle cx="152.550" cy="66.450" r="3.35"/>
+<text x="152.55" y="67.45" font-size="2.25" text-anchor="middle">6.7</text>
+<text x="152.55" y="79.4" font-size="2.8" text-anchor="middle">A/B</text>
+<circle cx="79.550" cy="52.950" r="2.8"/>
+<circle cx="106.550" cy="51.450" r="2.8"/>
+<circle cx="133.550" cy="52.950" r="2.8"/>
+<circle cx="146.050" cy="53.950" r="2.8"/>
+<circle cx="155.550" cy="53.950" r="2.8"/>
+<circle cx="29.050" cy="78.450" r="1.95"/>
+<circle cx="29.050" cy="46.450" r="1.95"/>
+<circle cx="160.050" cy="78.450" r="1.95"/>
+<circle cx="160.050" cy="46.450" r="1.95"/>
+<line x1="24" y1="99" x2="74" y2="99"/>
+<line x1="24" y1="97" x2="24" y2="101"/>
+<line x1="74" y1="97" x2="74" y2="101"/>
+<text x="49" y="106" text-anchor="middle" font-size="3.2">50 mm</text>
+<text x="85" y="99" font-size="3.0">LED Ø5.6 · panel screws Ø3.9 · mm</text>
+</svg>

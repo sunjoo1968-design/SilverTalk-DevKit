@@ -1,0 +1,50 @@
+[
+  {
+    "file": "SilverTalk-r1.0-01-Body.stl",
+    "mm": [
+      150.0,
+      126.0,
+      54.0
+    ],
+    "triangles": 9110,
+    "cm3": 155.43,
+    "watertight": true,
+    "connected_shells": 1
+  },
+  {
+    "file": "SilverTalk-r1.0-02-Front.stl",
+    "mm": [
+      141.1,
+      46.3,
+      3.1
+    ],
+    "triangles": 5816,
+    "cm3": 16.98,
+    "watertight": true,
+    "connected_shells": 1
+  },
+  {
+    "file": "SilverTalk-r1.0-03-Lid.stl",
+    "mm": [
+      150.0,
+      126.0,
+      4.0
+    ],
+    "triangles": 4396,
+    "cm3": 75.08,
+    "watertight": true,
+    "connected_shells": 1
+  },
+  {
+    "file": "SilverTalk-r1.0-04-Galaxy-Dock.stl",
+    "mm": [
+      94.0,
+      50.0,
+      84.29
+    ],
+    "triangles": 1632,
+    "cm3": 67.33,
+    "watertight": true,
+    "connected_shells": 1
+  }
+]
