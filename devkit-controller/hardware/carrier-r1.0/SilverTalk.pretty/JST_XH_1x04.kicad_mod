@@ -1,0 +1,219 @@
+(footprint "JST_XH_1x04"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST XH B4B-XH-A vertical through-hole header, 2.50mm pitch")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "96091663-55ee-47b9-b184-e6ca85fccfb6")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.14)
+			)
+		)
+	)
+	(property "Value" "JST_XH_1x04"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1596698b-d72a-4112-aa95-e666fc8b64df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0f1a299-09c3-4056-92ca-d47ea5b06d28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "827cb7b4-1ce5-45ad-861e-44595685bf45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.9 -2.45)
+		(end 2.9 -2.45)
+		(stroke
+			(width 0.14)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b61e12c9-9a1e-4245-96bc-fe5d0a053e72")
+	)
+	(fp_line
+		(start -2.9 -1.3)
+		(end -1.55 -1.3)
+		(stroke
+			(width 0.14)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fadef559-e178-4125-a410-a2dd13b6273d")
+	)
+	(fp_line
+		(start -2.9 9.95)
+		(end -2.9 -2.45)
+		(stroke
+			(width 0.14)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e572946f-208f-4ccf-a4e2-04a30e005452")
+	)
+	(fp_line
+		(start 2.9 -2.45)
+		(end 2.9 9.95)
+		(stroke
+			(width 0.14)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0fe3ad92-288b-4b83-922b-4e06282de760")
+	)
+	(fp_line
+		(start 2.9 9.95)
+		(end -2.9 9.95)
+		(stroke
+			(width 0.14)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a45ec9a-d16b-4512-a05f-faa36973cb71")
+	)
+	(fp_line
+		(start -3.15 -2.7)
+		(end 3.15 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb704bc5-906c-4003-9600-9fb2c02560cd")
+	)
+	(fp_line
+		(start -3.15 10.2)
+		(end -3.15 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2661c22b-67a1-4e8c-b913-fcadae3558f2")
+	)
+	(fp_line
+		(start 3.15 -2.7)
+		(end 3.15 10.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "64b5faec-ee1e-41fd-bfaf-332c365da4a8")
+	)
+	(fp_line
+		(start 3.15 10.2)
+		(end -3.15 10.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e5b2ec7-397a-46c5-b496-10f56bf5286b")
+	)
+	(fp_line
+		(start -2.875 -2.45)
+		(end 2.875 -2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "abf163f8-e7ff-4d55-ba29-bbe738d121e7")
+	)
+	(fp_line
+		(start -2.875 9.95)
+		(end -2.875 -2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "14186cfe-b29c-49e0-8736-335ac017aa62")
+	)
+	(fp_line
+		(start 2.875 -2.45)
+		(end 2.875 9.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "53af3c52-a7b1-499d-99a1-a1609ae63c92")
+	)
+	(fp_line
+		(start 2.875 9.95)
+		(end -2.875 9.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3f9e2ce6-33be-4f55-b151-032671f00ce7")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "74add1c2-d45a-47e7-9971-581013343b1b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.5)
+		(size 1.8 1.8)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a07b6a0-e030-467a-b7e1-04d9fe374db9")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5)
+		(size 1.8 1.8)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f7df992-98cf-4895-b9b6-dceef573455c")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.5)
+		(size 1.8 1.8)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "847ea9f2-6c82-4557-8a03-0a6be2a002a9")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,193 @@
+(footprint "R_Axial_P7.62"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1/4W axial resistor with 7.62mm lead spacing")
+	(property "Reference" "REF**"
+		(at 3.81 -2.15 0)
+		(layer "F.SilkS")
+		(uuid "31c4c1d7-5ab4-4fb1-a0ac-e9d8e3c4c1a2")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.14)
+			)
+		)
+	)
+	(property "Value" "R_Axial_P7.62"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67ff7bd6-3f89-4c74-8324-73a29c1ebc18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83f89092-972d-4124-b6f7-a1ea8a3d3696")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f235a4cd-8678-4180-aaaf-5fa2fb15b6d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.24 -1.2)
+		(end 6.38 -1.2)
+		(stroke
+			(width 0.13)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "311de7f7-3939-41aa-aeb9-ba670aff6a58")
+	)
+	(fp_line
+		(start 1.24 1.2)
+		(end 1.24 -1.2)
+		(stroke
+			(width 0.13)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ead03b53-6cbc-4bc2-93e9-19ee864e0a45")
+	)
+	(fp_line
+		(start 6.38 -1.2)
+		(end 6.38 1.2)
+		(stroke
+			(width 0.13)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3edaf141-1a60-4f01-a3f2-bb0d7ce87cfc")
+	)
+	(fp_line
+		(start 6.38 1.2)
+		(end 1.24 1.2)
+		(stroke
+			(width 0.13)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2fdddcde-b7ed-43a1-b9b0-baa5df17cef8")
+	)
+	(fp_line
+		(start -1.1 -1.5)
+		(end 8.72 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f82e717-cdc5-44bd-a956-351c3fcfb82e")
+	)
+	(fp_line
+		(start -1.1 1.5)
+		(end -1.1 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c406398e-469c-4d3a-be3f-068507f1a998")
+	)
+	(fp_line
+		(start 8.72 -1.5)
+		(end 8.72 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "17b34c05-d2d0-43f7-9eb3-441a7cb5d962")
+	)
+	(fp_line
+		(start 8.72 1.5)
+		(end -1.1 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "95438764-919e-4676-b580-fe69ddf461ac")
+	)
+	(fp_line
+		(start 0.67 -1.15)
+		(end 6.95 -1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f18fd7b0-2f93-4503-a301-3652a995bf43")
+	)
+	(fp_line
+		(start 0.67 1.15)
+		(end 0.67 -1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "adf40bb3-1506-427f-bae2-d2e2ba46dab4")
+	)
+	(fp_line
+		(start 6.95 -1.15)
+		(end 6.95 1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9411a5ff-f8fe-4400-b4cd-ec94c55551be")
+	)
+	(fp_line
+		(start 6.95 1.15)
+		(end 0.67 1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "66329968-92a6-450a-869d-c6cf0ecbb37f")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "e4bef07c-89d2-4e9b-9934-fa164dc99ecf")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 0)
+		(size 1.7 1.7)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "154cb40b-04bb-4dac-adb2-0574bf81d9bd")
+	)
+	(embedded_fonts no)
+)

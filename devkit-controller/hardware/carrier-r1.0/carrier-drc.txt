@@ -1,0 +1,11 @@
+** Drc report for SilverTalk-DevKit-Carrier-r1.0.kicad_pcb **
+** Created on 2026-11-21T18:47:04+0900 **
+** Report includes: Errors, Warnings **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

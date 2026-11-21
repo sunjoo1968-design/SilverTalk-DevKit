@@ -16,6 +16,14 @@ SilverTalk는 ESP32-WROOM-32 박스의 물리 버튼으로 갤럭시에서 AI �
 
 앱 1.10은 서비스 전환 중 선택이 다시 바뀌면 마지막 스위치 위치를 기준으로 통화를 유지합니다. 앱 1.9에서 수정한 짧은 Wi-Fi 지연 대응도 포함합니다. 다른 기종에서는 PD 충전과 USB 호스트 동시 동작 및 사용할 AI 앱의 마이크 제어를 설치할 때 확인하세요.
 
+## 프로토타입 PCB
+
+PCB r1.0은 30핀 ESP32-WROOM-32 DevKit을 두 줄의 암헤더에 끼우고, 스위치·LED·OLED를 JST XH로 연결하는 84 × 74 mm 캐리어입니다.
+
+- [PCB 제작·조립 안내와 국내 부품 구매 링크](devkit-controller/hardware/carrier-r1.0/README.md)
+- [PCB 주문용 거버 ZIP](https://github.com/sunjoo1968-design/SilverTalk-DevKit/releases/download/pcb-r1.0/SilverTalk-DevKit-Carrier-r1.0-JLCPCB-Gerber.zip)
+- [KiCad 설계 전체 ZIP](https://github.com/sunjoo1968-design/SilverTalk-DevKit/releases/download/pcb-r1.0/SilverTalk-DevKit-Carrier-r1.0.zip)
+
 ## 소스 빌드
 
 ### 갤럭시 앱

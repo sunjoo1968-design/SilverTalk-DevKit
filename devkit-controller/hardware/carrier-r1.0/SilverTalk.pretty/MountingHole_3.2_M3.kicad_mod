@@ -1,0 +1,97 @@
+(footprint "MountingHole_3.2_M3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.2mm non-plated clearance hole, M3")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b0884cc5-9a41-4aa5-8f5f-55d10a8a94d5")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.14)
+			)
+		)
+	)
+	(property "Value" "MountingHole_3.2_M3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca8eaab3-a76a-4f68-ad6e-f482d5f48192")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f26e7280-4b0c-4f08-a7e9-9af3a81a0e0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e62c532d-5136-4aa8-ac7d-5274b90d110f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.14)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "42e2c0d3-4438-4251-b33a-ab0ba6af45da")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.3 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b6f2418f-6200-48ee-8cb4-08b2a69afe10")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "43302019-f364-423a-a9cd-40801104dad0")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "dc249b4f-30a1-4d52-85e2-80b9281c1fc4")
+	)
+	(embedded_fonts no)
+)

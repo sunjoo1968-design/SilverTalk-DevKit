@@ -3,6 +3,7 @@ _archive/
 .gradle/
 build/
 *.log
+*.kicad_prl
 local.properties
 node_modules/
 sdkconfig
